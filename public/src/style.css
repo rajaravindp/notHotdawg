@@ -1,0 +1,124 @@
+html,
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(to right, #452d06, #10333e); 
+    /* color: #b2cee5; */
+}
+
+.container {
+    margin: 0 auto;
+    width: max(50vw, 400px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%); */
+}
+
+.app-title {
+    font-size: 46px;
+    background-image: -webkit-linear-gradient(#8ba9b6, #452d06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+
+h2 {
+    font-size: 24px;
+    background-image: -webkit-linear-gradient(hsl(198, 23%, 63%), #452d06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+
+}
+
+.app-upload {
+    font-size: 24px;
+    background-image: -webkit-linear-gradient(hsl(198, 23%, 63%), #452d06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+}
+
+.image-upload {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 8px 16px;
+    border-radius: 6px;
+
+}
+
+#image-upload {
+    display: none;
+}
+
+.upload-icon {
+    width: 30px;
+}
+
+#image-container {
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 60px; 
+    position: relative;
+}
+
+#image-container>img {
+    width: 100%;
+}
+
+.bounding-box {
+    position: absolute;
+    box-sizing: border-box;
+    border-width: 2px;
+    border-style: solid;
+}
+
+.bounding-box-label {
+    color: white;
+    position: absolute;
+    font-size: 12px;
+    margin-top: -16px;
+    margin-left: -2px;
+    padding: 1px;
+}
+
+.app-footer{
+    background-image: -webkit-linear-gradient(#8ba9b6, #452d06);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 12px;
+    font-weight: 800;
+    text-align: center;
+    margin-block: 36px;
+    bottom: 0;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.brain-icon {
+    width: 26px;
+    height: 24px;
+    vertical-align: middle;
+    transition: transform 0.5s ease-in-out;
+}
+
+.brain-icon:hover {
+    animation: spin 0.3s infinite;
+}
+@keyframes spin {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+
