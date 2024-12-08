@@ -3,7 +3,8 @@
 
 Not-hotDawg is a web application that uses Transformers.js for object detection. Inspired by Jian Yang from Silicon Valley. My app however, actually works!
 
-![Screenshot 2024-12-08 100808](https://github.com/user-attachments/assets/f3f6b91a-477a-4a67-a920-91295e2c022f)
+![valImg](https://github.com/user-attachments/assets/1effd084-7cc7-4263-87d6-809307fade77)
+
 
 ## Technologies Used
 - HTML
